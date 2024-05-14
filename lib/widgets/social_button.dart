@@ -11,8 +11,8 @@ class SocialButton extends StatelessWidget {
 }): super(key: key);
   @override
   Widget build(BuildContext context){
-    return TextButton.icon(onPressed: (){}, icon: SvgPicture.asset(iconPath, width: 25, color: Pallete.whiteColor,),
-        label: Text(label, style: const TextStyle(color: Pallete.whiteColor, fontSize: 17),),
+    return TextButton.icon(onPressed: (){}, icon: SvgPicture.asset(iconPath, width: 25, color: Pallete.blackColor,),
+        label: Text(label, style: const TextStyle(color: Pallete.blackColor, fontSize: 17),),
     style: TextButton.styleFrom(padding: EdgeInsets.symmetric(vertical: 30,
     horizontal: horizontalPadding),
     shape: RoundedRectangleBorder(
